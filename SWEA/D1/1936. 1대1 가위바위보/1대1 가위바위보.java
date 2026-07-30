@@ -9,24 +9,14 @@ class Solution
 		int A = sc.nextInt();
 		int B = sc.nextInt();
 		
-		if(A == 1) {
-			if(B == 2) {
-				System.out.println("B");
-			}else {
-				System.out.println("A");
-			}
-		}else if(A == 2) {
-			if(B == 1) {
-				System.out.println("A");
-			}else {
-				System.out.println("B");
-			}
+		if(A==1 && B==3) {
+			System.out.println("A");
+		}else if(A == 2 && B == 1) {
+			System.out.println("A");
+		}else if(A == 3 && B==2) {
+			System.out.println("A");
 		}else {
-			if(B == 1) {
-				System.out.println("B");
-			}else {
-				System.out.println("A");
-			}
+			System.out.println("B");
 		}
 	}
 }
